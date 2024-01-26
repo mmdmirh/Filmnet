@@ -10,11 +10,11 @@ ${Submit_XPATH}     //button[@type='submit']
 ${Login_item_XPATH}  //a[contains(text(),'ورود')]
 ${Error_XPATH}     //div[@type='error']
 ${alert_XPATH}  //div[@id='alerts']
-${MSISDN}       09361224439
-${password}     12345678
-${OTP}  1234
-${wrong_otp}  4321
-${wrong_password}  65432345
+${MSISDN}       0987654321 # Enter a valid MobilePhoneNumber
+${password}     abcdefg # Enter a valid password
+${OTP}  111 # Enter a valid value
+${wrong_otp}  111  # Enter a valid value
+${wrong_password}  111  # Enter a valid value
 ${OTP_Button_XPATH}     (//button[@type='button'])[3]
 
 *** Keywords ***
